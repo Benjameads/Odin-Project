@@ -1,0 +1,35 @@
+<!-- In order to get a basic template to start your HTML file. type in "CTRL" + "/" -->
+<!DOCTYPE html>
+<html lang="en">
+    <!--The "head" area allows you to make behind-the-scenes logic to the website.  -->
+<head>
+    <!-- This Meta tag, allows the code to understand your characters/words -->
+    <meta charset="UTF-8">
+    <!-- This meta tag allows the program to adjust the website according to the device width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the website tab name -->
+    <title>Odin HTML project</title>
+</head>
+
+<!-- The body is consited of what the user will end up seeing -->
+<body>
+    <!-- The <h1> & </h1> Tag makes a header, bigger and bolder than normal text. You can adjust the size with "h1" as the biggest, and "h6" being the smallest -->
+    <h1> Odin Recipies</h1>
+    <p>Welcome to a short list of quick recipies you can use to make a breakfast and a dinner!<br> This is my first HTML project from <a href="http://www.theodinproject.com" target="_blank">The Odin Project</a>. I hope you enjoy it!</p>
+    <br>
+    <img src="img/Happy_person.jfif" alt="A happy person after eating one of my meals.">
+    <br>
+    <!-- This is a link. used by <a> & </a>. 
+        However, without an href the link is pointless. the href tells the website where to re-direct you.
+        If the link is another website, it's called an "absolute link" meaning that the file/location is just not local to your device. This means it must have an https://www.website.com 
+        If you have the file downloaded locally. You can simpily reference the file its in. this is called "relative link"
+    
+        The "target" tag, tells the link where to open the link tab wise. If left blank/not used, the link will open in the current tab. However, if you want it to open in a seperate tab. You make target equal to "_blank"
+        The "rel" tag is for security. If you leave blank, it allows the linked website to access yours. If you make rel equal to "noopener noreferrer" The linked website cannot access or see your website. This is for security purposes.
+        Finally, you must add the name the link shows up as.-->
+    <a href="recipes/oatmeal.html" target="_blank" rel="noopener noreferrer">Quick Protien Oatmeal</a>
+    <!-- A <br> adds a line break visually -->
+    <br>
+    <a href="recipes/creamy_chicken.html">Creamy Alfredo Chicken</a>
+</body>
+</html>
